@@ -1,0 +1,16 @@
+{
+  "name": "n-api-sample",
+  "version": "1.0.0",
+  "description": "",
+  "main": "hello.js",
+  "scripts": {
+    "test": "node hello",
+    "build": "node-gyp configure && node-gyp build"
+  },
+  "author": "",
+  "license": "ISC",
+  "gypfile": true,
+  "devDependencies": {
+    "node-gyp": "^3.7.0"
+  }
+}
